@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Gestor</string>
+    <string name="nombre_app">Gestor</string>
+    <string name="version">Version 1.0</string>
+    <string name="desarrolador">Desarrollado por Fabio</string>
+    <!--CONTROLES GENERALES -->
+    <string name="nuevo">Nuevo</string>
+    <string name="editar">Editar</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="eliminar">Eliminar</string>
+    <!--LOGIN -->
+    <string name="login">Login de Acceso</string>
+    <string name="usuario">Usuario</string>
+    <string name="clave">Clave</string>
+    <string name="olvidaste_contrasena">Olvidaste tu contraña</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="web">Pagina Web</string>
+    <string name="no_cuenta">No tiene cuenta, Registrate!</string>
+    <!--REGISTRO -->
+    <!--DASHBOARD -->
+
+</resources>
