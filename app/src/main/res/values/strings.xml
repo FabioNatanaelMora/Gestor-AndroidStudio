@@ -17,6 +17,19 @@
     <string name="web">Pagina Web</string>
     <string name="no_cuenta">No tiene cuenta, Registrate!</string>
     <!--REGISTRO -->
+    <string name="titulo_registro">Registro Usuario</string>
+    <string name="ingrese_datos">Ingrese Datos</string>
+    <string name="nombre">Nombre</string>
+    <string name="Ingrese_nombre">Ingrese Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="Ingrese_apellido">Ingrese Apellido</string>
+    <string name="correo">Correo Electronico</string>
+    <string name="ingrese_correo">Ingrese Correo Electronico</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="ingrese_contrasenia">Ingrese Contraseña</string>
+    <string name="registrar">Registrar</string>
+    <string name="ir_login">Ir a Login</string>
+
     <!--DASHBOARD -->
 
 </resources>

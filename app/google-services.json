@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "627463146831",
+    "project_id": "gestor-klotin-java",
+    "storage_bucket": "gestor-klotin-java.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627463146831:android:d388b44cbf334eead8893a",
+        "android_client_info": {
+          "package_name": "com.fabiomora.gestor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGEeZdrT88p72UrRhwkryIWCaJNmlExno"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
@@ -16,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     //Paso 1: Declaro mi variable con el tipo de control
     Button btnWeb,btnIngresar;
+    TextView tvRegistrate;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         //Paso 2: Asociar mi variable creada al control de mi xml activity
         btnWeb = findViewById(R.id.btnWeb);
         btnIngresar= findViewById(R.id.btnIngresar);
+        tvRegistrate = findViewById(R.id.tvRegistrate);
 
         //Paso 3: Le voy a indicar a la variable que es lo que vas a hacer
 
@@ -44,6 +47,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this,"Ingresaste!",Toast.LENGTH_SHORT).show();
 
+            }
+        });
+
+        tvRegistrate.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                startActivity((new Intent(MainActivity.this, Registro.class)));
             }
         });
 
