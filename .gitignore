@@ -1,15 +1,48 @@
+# Archivos y carpetas de Android Studio
 *.iml
-.gradle
-/local.properties
+.idea/
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración local
+local.properties
+
+# Claves y archivos sensibles
+google-services.json
+firebase-debug.log
+
+# Carpetas de cache
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
+
+# Archivos de logs
+*.log
+
+# Configuración del entorno
+.env
+.env.*
+
+# Opcional: excluir binarios o resultados temporales
+*.apk
+*.ap_
+
+# IntelliJ
+*.ipr
+*.iws
+
+# VS Code (si usás VSCode además de Android Studio)
+.vscode/
+
+# Mac
+__MACOSX/
