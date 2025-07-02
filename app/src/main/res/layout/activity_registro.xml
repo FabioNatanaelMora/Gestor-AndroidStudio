@@ -63,6 +63,7 @@
                 android:layout_marginTop="15dp">
 
                 <EditText
+                    android:id="@+id/etNombresR"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/Ingrese_nombre"
@@ -83,6 +84,7 @@
                 android:layout_marginTop="15dp">
 
                 <EditText
+                    android:id="@+id/etApellidosR"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="text"
@@ -103,6 +105,7 @@
                 android:layout_marginTop="15dp">
 
                 <EditText
+                    android:id="@+id/etCorreoR"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textEmailAddress"
@@ -125,6 +128,7 @@
                 app:passwordToggleEnabled="true">
 
                 <EditText
+                    android:id="@+id/etContrasenaR"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textPassword"
