@@ -35,6 +35,7 @@ dependencies {
     implementation libs.material
     implementation libs.lottie
     implementation libs.activity
+    implementation libs.firebase.database
     implementation libs.firebase.auth
     implementation libs.firebase.analytics
     implementation libs.constraintlayout
