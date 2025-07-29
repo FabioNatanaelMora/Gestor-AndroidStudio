@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_dialogo_white"
+    android:layout_gravity="center_horizontal">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_gravity="center">
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/desarrollado"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/logo_desarrollador"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fabiocodedev"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="22sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mensaje_dev"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/version"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+54926112345678"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center">
+                
+                <ImageButton
+                    android:id="@+id/ibTelefono"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/telefono_dev"
+                    android:scaleType="centerCrop"
+                    android:background="@null"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/ibYoutube"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/youtube_dev"
+                    android:scaleType="centerCrop"
+                    android:background="@null"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnVolverDialogo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/volver"
+            android:backgroundTint="@color/colorPrimaryDark"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

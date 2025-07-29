@@ -3,11 +3,16 @@
     <string name="nombre_app">Gestor</string>
     <string name="version">Version 1.0</string>
     <string name="desarrolador">Desarrollado por Fabio</string>
+    <string name="fabiocodedev">FabioCodeDev</string>
+    <string name="mensaje_dev">Profesional especializado en el diseño, desarrollo y mantenimiento de aplicaciones móviles y/o de escritorio. Posee conocimientos en lenguajes de programación, bases de datos y experiencia de usuario (UX), orientado a crear soluciones eficientes, intuitivas y escalables. Capaz de trabajar en equipo, adaptarse a nuevas tecnologías y resolver problemas con creatividad y lógica.
+
+</string>
     <!--CONTROLES GENERALES -->
     <string name="nuevo">Nuevo</string>
     <string name="editar">Editar</string>
     <string name="actualizar">Actualizar</string>
     <string name="eliminar">Eliminar</string>
+    <string name="volver">Volver</string>
     <!--LOGIN -->
     <string name="login">Login de Acceso</string>
     <string name="usuario">Usuario</string>
@@ -31,5 +36,17 @@
     <string name="ir_login">Ir a Login</string>
 
     <!--DASHBOARD -->
+    <string name="bienvenido">Bienvenid@</string>
+    <string name="nombre_usuario">Nombre Usuario</string>
+    <string name="correo_usuario">Correo Usuario</string>
+    <string name="identificador">Identificador</string>
+    <string name="clientes">Clientes</string>
+    <string name="tipo_cliente">Tipos Clientes</string>
+    <string name="tarea">Tareas</string>
+    <string name="lista_tarea">Lista Tareas</string>
+    <string name="favoritos">Prioridades</string>
+    <string name="mis_datos">Mis Datos</string>
+    <string name="desarrollado">Desarrollado por</string>
+
 
 </resources>

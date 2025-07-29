@@ -15,6 +15,27 @@
         android:theme="@style/Theme.CurrenLocation"
         tools:targetApi="31">
         <activity
+            android:name=".MisDatos.MisDatos"
+            android:exported="false" />
+        <activity
+            android:name=".TipoClientes.EditarTipoCliente"
+            android:exported="false" />
+        <activity
+            android:name=".TipoClientes.AgregarTipoCliente"
+            android:exported="false" />
+        <activity
+            android:name=".TipoClientes.ListaTipoClientes"
+            android:exported="false" />
+        <activity
+            android:name=".Clientes.EditarCliente"
+            android:exported="false" />
+        <activity
+            android:name=".Clientes.AgregarCliente"
+            android:exported="false" />
+        <activity
+            android:name=".Clientes.ListaClientes"
+            android:exported="false" />
+        <activity
             android:name=".Dashboard"
             android:exported="false" />
         <activity

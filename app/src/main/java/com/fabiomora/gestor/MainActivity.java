@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         progressDialog.setTitle("Aviso de Aplicativo");
         progressDialog.setCanceledOnTouchOutside(false); //Para que no lo puedan cancelar
 
-        etCorreo.setText("fabio@gmail.com");
+        etCorreo.setText("Fabiomora@gmail.com");
         etcontasenia.setText("123456");
 
         //Paso 3: Le voy a indicar a la variable que es lo que vas a hacer
