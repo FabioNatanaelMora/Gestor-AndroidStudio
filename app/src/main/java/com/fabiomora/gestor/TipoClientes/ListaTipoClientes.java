@@ -1,5 +1,6 @@
 package com.fabiomora.gestor.TipoClientes;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -32,7 +33,8 @@ public class ListaTipoClientes extends AppCompatActivity {
         btnAgregarTipoCliente.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(ListaTipoClientes.this,"Modulo Agregar Tipo Cliente", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(ListaTipoClientes.this,"Modulo Agregar Tipo Cliente", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(ListaTipoClientes.this, AgregarTipoCliente.class));
 
             }
         });

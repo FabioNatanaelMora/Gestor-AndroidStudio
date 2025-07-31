@@ -47,6 +47,9 @@
     <string name="favoritos">Prioridades</string>
     <string name="mis_datos">Mis Datos</string>
     <string name="desarrollado">Desarrollado por</string>
-
+    
+    <!--TIPO CLIENTES -->
+    <string name="agregar_tipo_cliente">Agregar Tipo Cliente</string>
+    <string name="registrar_tipo">Registrar Tipo</string>
 
 </resources>
